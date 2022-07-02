@@ -1,3 +1,4 @@
-local tp = 573, 246, 234  
+local port = CFrame.new(-902.343, 5.9408, -92.4671)  
 local root = game.Players.LocalPlayer.Character.HumanoidRootPart
-root.CFrame = CFrame.new(tp)
+
+root.CFrame = port
