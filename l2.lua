@@ -1499,6 +1499,6 @@ function Clicks() -- Sidebar.Click
 		end
 	end
 end
-coroutine.wrap(Clicks)()
+-- coroutine.wrap(Clicks)()
 
 return SSLib
