@@ -1499,7 +1499,5 @@ function Clicks() -- Sidebar.Click
 		end
 	end
 end
-wait(7)
-coroutine.wrap(Clicks)()
 
 return SSLib
