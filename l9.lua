@@ -914,7 +914,7 @@ function SSLib:CreateWindow(Icon_)
 
 	--			v.MouseButton1Click:Connect(function()
 	--				local tab = tabs[v.Name]
-	--				for x,n in ipairs(tabs:GetChildren()) do
+	--				for x,n in ipairs(tabs)) do
 	--					if n:IsA("ScrollingFrame") then n.Visible = false end
 	--					tab.Visible = true
 	--					tabs.TabTitle.Text = v.Name
@@ -1450,7 +1450,7 @@ function _G.Clicks() -- Sidebar.Click
 		return req(obj)
 	end
 
-	for i,v in ipairs(script.Parent:GetChildren()) do
+	for i,v in ipairs(Sidebar:GetChildren()) do
 		local tabs = script.Parent.Parent.Tabs
 
 		if v:IsA('ImageButton') and v.Name ~= 'Hidden' then
