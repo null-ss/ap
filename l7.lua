@@ -1439,7 +1439,7 @@ end
 
 wait(1)
 
-function Clicks() -- Sidebar.Click 
+function _G.Clicks() -- Sidebar.Click 
 	local script = Instance.new('LocalScript', Sidebar)
 	local req = require
 	local require = function(obj)
