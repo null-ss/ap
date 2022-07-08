@@ -15,6 +15,7 @@ local bgColor = Color3.fromRGB(43, 43, 43)
 
 -- Objects
 local LoadScreen = Instance.new("ScreenGui")
+LoadScreen.Parent = game.CoreGui
 local _ = Instance.new("Frame")
 local Text = Instance.new("TextLabel")
 local Icon = Instance.new("ImageLabel")
@@ -84,11 +85,11 @@ coroutine.wrap(function()
 			while true do
 				local goal={}goal.Rotation = 360
 				local info=TweenInfo.new(2, Enum.EasingStyle.Quart, Enum.EasingDirection.InOut)
-				local tween=game:GetService('TweenService'):Create(script.Parent, info, goal) tween:Play()
+				local tween=game:GetService('TweenService'):Create(Icon, info, goal) tween:Play()
 				wait(2)
 				local goal={}goal.Rotation = -360
 				local info=TweenInfo.new(2, Enum.EasingStyle.Quart, Enum.EasingDirection.InOut)
-				local tween=game:GetService('TweenService'):Create(script.Parent, info, goal) tween:Play()
+				local tween=game:GetService('TweenService'):Create(Icon, info, goal) tween:Play()
 				wait(2)
 			end
 		end)()
