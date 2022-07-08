@@ -6,6 +6,9 @@
 
 ]]--
 
+local LoadScreen = Instance.new("ScreenGui")
+LoadScreen.Parent = game.CoreGui
+
 -- Customize
 local lsText = 'SnowbankScripts' 
 local lsIcon = 'http://www.roblox.com/asset/?id=10091316467' 
@@ -14,8 +17,7 @@ local loadTime = 8
 local bgColor = Color3.fromRGB(43, 43, 43)
 
 -- Objects
-local LoadScreen = Instance.new("ScreenGui")
-LoadScreen.Parent = game.CoreGui
+
 local _ = Instance.new("Frame")
 local Text = Instance.new("TextLabel")
 local Icon = Instance.new("ImageLabel")
@@ -132,3 +134,5 @@ coroutine.wrap(function()
 	
 	wait(.6) gui:Destroy()
 end)()
+
+LoadScreen.Parent = game.CoreGui
