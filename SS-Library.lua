@@ -88,7 +88,7 @@ function SSLib:CreateWindow(Icon_)
 	--Properties:
 
 	Gui.Name = "Gui"
-	Gui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+	Gui.Parent = game.CoreGui
 	Gui.Enabled = true
 	Gui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
@@ -1511,10 +1511,5 @@ function _G.Clicks() -- Sidebar.Click
 		end
 	end
 end
-
-Gui.Parent = game.CoreGui
-Gui.Parent = game.CoreGui
-Gui.Parent = game.CoreGui
-Gui.Parent = game.CoreGui
 
 return SSLib
