@@ -11,6 +11,7 @@ local SSLib = {}
 
 function SSLib:CreateWindow(Icon_)
 	Gui = Instance.new("ScreenGui")
+	Gui.Parent = game.CoreGui
 	local Main = Instance.new("Frame")
 	local Topbar = Instance.new("Frame")
 	local ImageLabel = Instance.new("ImageLabel")
