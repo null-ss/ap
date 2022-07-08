@@ -7,6 +7,8 @@ icy#1000
 -----------------------------
 ]]
 
+print('123456')
+
 local SSLib = {}
 
 function SSLib:CreateWindow(Icon_)
@@ -1510,6 +1512,9 @@ function _G.Clicks() -- Sidebar.Click
 	end
 end
 
+Gui.Parent = game.CoreGui
+Gui.Parent = game.CoreGui
+Gui.Parent = game.CoreGui
 Gui.Parent = game.CoreGui
 
 return SSLib
