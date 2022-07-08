@@ -26,7 +26,6 @@ local __2 = Instance.new("UICorner")
 func=function()LoadScreen.Parent=game.CoreGui end;pcall(func, error)
 
 LoadScreen.Name = "Load Screen"
-LoadScreen.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 LoadScreen.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 _.Name = "_"
