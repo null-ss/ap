@@ -1,7 +1,6 @@
 --[[
 
 	SnowbankScripts | Custom-Made LoadScreen
-	> Customizeable
 	> discord.gg/HHpdWZhHcn
 	> doom#1000 / nullzone#4318
 
