@@ -8,21 +8,11 @@
 ]]--
 
 -- Customize
-local lsText = 
-	'SnowbankScripts' 
--- Change this to change the text
-local lsIcon = 
-	'http://www.roblox.com/asset/?id=10091316467' 
--- Change this to change the icon 
-
+local lsText = 'SnowbankScripts' 
+local lsIcon = 'http://www.roblox.com/asset/?id=10091316467' 
 local iconSpins = true 
--- Set this to false to disable icon spinning
-
 local loadTime = 8
--- The loading time
-
 local bgColor = Color3.fromRGB(43, 43, 43)
--- Change this to change the background coloor
 
 -- Objects
 local LoadScreen = Instance.new("ScreenGui")
