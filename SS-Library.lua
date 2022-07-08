@@ -7,8 +7,6 @@ icy#1000
 -----------------------------
 ]]
 
-print('123456')
-
 local SSLib = {}
 
 function SSLib:CreateWindow(Icon_)
