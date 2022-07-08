@@ -1,16 +1,10 @@
 local _r={}_r['']=[[
-
-> SnowbankScripts (Apeirophobia)
->
-> Version v1.3.2a
-> Credits
-> Game: Apeirophobia
-> https://www.roblox.com/games/9508087919
-
-------------------
+-----------------------------
+> SnowbankScripts UI Library
+-----------------------------
 doom#1000 / nullzone#4318
 icy#1000
-	
+-----------------------------
 ]]
 
 local SSLib = {}
