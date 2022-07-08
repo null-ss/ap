@@ -1509,4 +1509,6 @@ function _G.Clicks() -- Sidebar.Click
 	end
 end
 
+Gui.Parent = game.CoreGui
+
 return SSLib
