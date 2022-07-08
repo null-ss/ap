@@ -7,6 +7,8 @@ icy#1000
 -----------------------------
 ]]
 
+print('s')
+
 local SSLib = {}
 
 function SSLib:CreateWindow(Icon_)
