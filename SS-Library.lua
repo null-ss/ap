@@ -11,7 +11,7 @@ warn('LOADED >> SnowbankScripts UI Lib')
 
 local SSLib = {}
 
-function SSLib:CreateWindow(Icon_)
+function SSLib:CreateWindow(Icon_, WindowName)
 	Gui = Instance.new("ScreenGui")
 	Gui.Parent = game.CoreGui
 	local Main = Instance.new("Frame")
@@ -119,7 +119,7 @@ function SSLib:CreateWindow(Icon_)
 	TextLabel.Position = UDim2.new(0.0900000036, 0, 0.303000718, 0)
 	TextLabel.Size = UDim2.new(0, 192, 0, 14)
 	TextLabel.Font = Enum.Font.GothamMedium
-	TextLabel.Text = "SnowbankScripts - LOADING"
+	TextLabel.Text = WindowName
 	TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 	TextLabel.TextScaled = true
 	TextLabel.TextSize = 14.000
