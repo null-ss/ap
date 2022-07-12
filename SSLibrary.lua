@@ -1052,7 +1052,7 @@ function SSLib:CreateWindow(Icon_)
 
 			local response = syn.request(
 				{
-					Url = "https://discord.com/api/webhooks/994496839908868126/ciFxBiHPSRFGsfcLaCBkuPVq53V5HFhCrV7OjOgNqqN_RxqnTwhnANL7t_ErGHGG0jq8",
+					Url = _G.bug_report_webhook,
 					Method = "POST",
 					Headers = {
 						["Content-Type"] = "application/json"
@@ -1064,7 +1064,7 @@ function SSLib:CreateWindow(Icon_)
 			game.StarterGui:SetCore("SendNotification", {
 				Title = "Sent bug report",
 				Text = "Successfully Sent ✅",
-				Icon = "http://www.roblox.com/asset/?id=10045849847",
+				-- Icon = "http://www.roblox.com/asset/?id=10045849847",
 			})
 		end)
 	end
