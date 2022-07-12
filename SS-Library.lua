@@ -7,7 +7,7 @@ icy#1000
 -----------------------------
 ]]
 
-print('s')
+warn('LOADED >> SnowbankScripts UI Lib')
 
 local SSLib = {}
 
