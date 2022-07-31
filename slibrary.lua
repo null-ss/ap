@@ -317,8 +317,6 @@ function SSLib:newWindow(text, altText)
 		local uilist = Instance.new('UIListLayout', TabFrame)
 		uilist.Padding = UDim.new(0, 0)
 		uilist.SortOrder = Enum.SortOrder.LayoutOrder
-		
-		wait(0.01)
 
 		_G.tabs = _G.tabs + 1
 
