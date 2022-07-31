@@ -1446,7 +1446,7 @@ function SSLib:newWindow(text, altText)
 			TextBox.Position = UDim2.new(0, 0, 0.5, 0)
 			
 			TextBox.ClearTextOnFocus = false
-			TextBox.RichText = false
+			TextBox.RichText = true
 			TextBox.TextEditable = false
 			
 			TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
