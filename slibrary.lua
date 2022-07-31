@@ -1444,8 +1444,11 @@ function SSLib:newWindow(text, altText)
 			TextBox.BackgroundTransparency = 1.000
 			TextBox.Size = UDim2.new(1, 0, 0.395000011, 0)
 			TextBox.Position = UDim2.new(0, 0, 0.5, 0)
+			
 			TextBox.ClearTextOnFocus = false
 			TextBox.RichText = true
+			TextBox.TextEditable = false
+			
 			TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
 			TextBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 			TextBox.TextTransparency = 0.440
