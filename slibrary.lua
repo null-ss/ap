@@ -1515,7 +1515,7 @@ function SSLib:newWindow(text, altText)
 			TextLabel.Position = UDim2.new(0, 0, 0.5, 0)
 			TextLabel.Size = UDim2.new(0.686935186, 0, 0.368421048, 0)
 			TextLabel.Font = Enum.Font.GothamMedium
-			TextLabel.Text = "Keybind"
+			TextLabel.Text = Text
 			TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 			TextLabel.TextSize = 12.000
 			TextLabel.TextTransparency = 0.630
