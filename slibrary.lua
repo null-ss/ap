@@ -1641,7 +1641,7 @@ function SSLib:newWindow(text, altText)
 
 			TextButton.Parent = Button
 			TextButton.AnchorPoint = Vector2.new(0, 0.5)
-			TextButton.BackgroundColor3 = Color3.fromRGB(16, 220, 111)
+			TextButton.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
 			TextButton.Position = UDim2.new(0.588405788, 0, 0.5, 0)
 			TextButton.Size = UDim2.new(0.384505689, 0, 0.780999899, 0)
 			TextButton.AutoButtonColor = false
@@ -1677,17 +1677,21 @@ function SSLib:newWindow(text, altText)
 				Button.MouseButton1Click:Connect(function() t__("BackgroundTransparency", .5, .25, Button) wait(.15) t__("BackgroundTransparency", 0, .25, Button) end)
 			end)()
 
-			UIStroke = Instance.new('UIStroke')
-			UIStroke.Color = Color3.fromRGB(16, 220, 111)
-			UIStroke.Thickness = 1
-			UIStroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-			UIStroke.Transparency = 0
+-- 			UIStroke = Instance.new('UIStroke')
+-- 			UIStroke.Color = Color3.fromRGB(16, 220, 111)
+-- 			UIStroke.Thickness = 1
+-- 			UIStroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+-- 			UIStroke.Transparency = 0
 
 			function Button_:Update(t1, t2, onClickNew)
 				OnClickFunction:Disconnect()
 				OnClickFunction = TextButton.MouseButton1Click:Connect(onClickNew)
 				TextLabel.Text = t1
 				TextButton.Text = t2
+			end
+
+			function Button_:Delete()
+				Button:Destroy()
 			end
 
 			return Button_
