@@ -1449,6 +1449,8 @@ function SSLib:newWindow(text, altText)
 			TextBox.RichText = true
 			TextBox.TextEditable = false
 			
+			TextBox.RichText = true
+			
 			TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
 			TextBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 			TextBox.TextTransparency = 0.440
